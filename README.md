@@ -1,6 +1,6 @@
 # Emotion-Recognition Using EEG Signals. 
 
-Supervised by **Professor**: [Mohammed Ghassemi](https://ghassemi.xyz/)
+Supervised by **Professor**: [Mohammad Ghassemi](https://ghassemi.xyz/)
 
 ## About DEAP Dataset. 
 
