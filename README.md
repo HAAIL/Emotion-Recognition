@@ -56,6 +56,23 @@ Therefore, each row in this array corresponds to a specific trial, and each colu
 
 5. **Class Imbalance**: The authors in the paper, decided to label the the above 4 classes as between high and low values. However, not all emotions were equally balanced between low and high. This means that more videos were rated as high than low for some emotions. For example, 59% of the videos were rated as high arousal, 57% as high valence, and 67% as high liking. The percentages and standard deviations (which show how much variation there is) indicate that the distribution of high and low ratings wasn't even. Some emotions were more likely to be rated as high than others. This kind of imbalance can make it a bit more challenging to analyze the data and train models, as the models might become biased towards the more common category (like high arousal or high liking).
 
+### EDA for the Data. 
+
+Exploratory Data Analysis (EDA) is important for signals and signal processing for several reasons:
+
+1. **Understanding Signal Characteristics:** EDA helps in gaining a deeper understanding of the fundamental characteristics of a signal. This includes examining its amplitude, frequency, phase, and other important properties. By visualizing the signal and its components, you can identify patterns and anomalies that might not be apparent from raw data.
+
+2. **Noise Detection and Removal:** Signals are often noise-contaminated, which can distort the underlying information. EDA can help in identifying and characterizing noise in a signal, allowing for the development of noise removal or filtering techniques to enhance the quality of the signal.
+
+3. **Frequency Analysis:** EDA techniques like Fourier analysis and spectrograms are commonly used to analyze the frequency content of signals. This is crucial for tasks such as identifying dominant frequencies, harmonics, and periodicity in signals. It is particularly useful in fields like audio processing, telecommunications, and vibration analysis.
+
+4. **Visualization:** Visualizing signals and their properties can make it easier to spot trends, outliers, or irregularities. Various visualization techniques, such as time-domain and frequency-domain plots, can provide valuable insights.
+
+5. **Data Preprocessing:** EDA often involves data preprocessing steps like filtering, resampling, or normalization. These steps can improve the quality and consistency of signal data before it is used for more advanced analyses or modelling.
+
+Here we plot the raw signal data for subject 01 across the 40 channels to see how the data looks like. 
+
+
 
 
 
