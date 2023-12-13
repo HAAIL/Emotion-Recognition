@@ -2,6 +2,11 @@
 
 Supervised by **Professor**: [Mohammad Ghassemi](https://ghassemi.xyz/)
 
+
+## Instructions To use the code - 
+
+1. will be updated shortly....
+
 ## About DEAP Dataset. 
 
 1. **Multimodal Dataset**: The DEAP dataset is a multimodal dataset for analyzing human emotional states. It includes physiological signals and self-reported emotional ratings.
@@ -188,10 +193,13 @@ Here is the plot on how we convert each channel in the data into different bands
 
 The above transformation is done across the 32 channels for each trail in the whole dataset. 
 
-### **Method 2**
-We are using the data by simply applying the standard scaling with mean 0 and standard deviation 1. This is being done to see how the models maps the information from the points to the labels that are provided in the dataset.
+### ***CNN Architecture and CNN+LSTM Architecture***
 
+- TODO
 
+### ***Results ***
+
+- TODO
 
 
 
