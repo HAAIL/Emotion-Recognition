@@ -397,21 +397,6 @@ plt.ylabel('True Labels')
 plt.title('Confusion Matrix')
 plt.savefig(f'./Lresults/confusion_matrix{args.emotion}.png')
 
-fpr, tpr, thresholds = roc_curve(all_true, all_preds)
-
-roc_auc = auc(fpr, tpr)
-
-# Plot ROC curve
-plt.figure(figsize=(8, 8))
-plt.plot(fpr, tpr, color='darkorange', lw=2, label=f'AUC = {roc_auc:.2f}')
-plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
-plt.xlabel('False Positive Rate')
-plt.ylabel('True Positive Rate')
-plt.title('Receiver Operating Characteristic (ROC) Curve')
-plt.legend(loc='lower right')
-plt.savefig(f'./Lresults/ROC curve{args.emotion}.png')
-
-
 
 
 
