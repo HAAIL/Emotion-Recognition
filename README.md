@@ -242,7 +242,37 @@ The above transformation is done across the 32 channels for each trail in the wh
 
 ### ***Results ***
 
-- TODO
+## Model Training Results
+- **Split**: 80-20 train-test
+- **Learning Rate**: 0.001
+- **Optimizer**: Adam
+- **Loss Function**: CrossEntropyLoss
+- **Batch Size**: 256
+
+### Custom CNN Model for 4 Emotions (Trained on 30 Subjects)
+| Emotion | Epochs | Training Accuracy | Validation Accuracy | F-1 Score |
+|---------|--------|-------------------|---------------------|-----------|
+| Arousal | 200    | 69.44%            | 75.77%              | 0.69      |
+| Valence | 200    | 70.45%            | 76.37%              | 0.70      |
+| Dominance | 200    | 70.82%          | 76.08%              | 0.70      |
+| Liking | 200    | 69.79%            | 75.28%              | 0.69      |
+
+### Custom CNN Model for 4 Emotions (Trained on 15 Subjects)
+| Emotion | Epochs | Training Accuracy | Validation Accuracy | F-1 Score |
+|---------|--------|-------------------|---------------------|-----------|
+| Arousal | 200    | 83.28%            | 85.14%              | 0.83      |
+| Valence | 200    | 83.17%            | 85.19%              | 0.83      |
+| Dominance | 200    | 82.81%          | 84.59%              | 0.82      |
+| Liking | 200    | 84.14%            | 85.74%              | 0.84      |
+
+### CNN+LSTM Models for Emotions (Trained on 30 Subjects)
+| Emotion | Epochs | Training Accuracy | Validation Accuracy | F-1 Score |
+|---------|--------|-------------------|---------------------|-----------|
+| Arousal | 100    | 97.08%            | 91.08%              | 0.97      |
+| Valence | 100    | 96.40%            | 90.7%               | 0.96      |
+| Dominance | 100    | 96.48%          | 91.06%              | 0.96      |
+| Liking | 100    | 96.03%            | 90.3%               | 0.96      |
+
 
 
 
