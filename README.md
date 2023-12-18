@@ -45,7 +45,9 @@ After training the cnn model the results on cross-validation and the model's wei
 
 **Step 5**: To run another model (CNNLSTM) run the script `cLtrain.py`. this code performs the same as ctrain.py however, we use a new proposed model here. 
 
-After training the cnnlstm model the results on cross-validation and the model's weights are saved in a new folder named results. it also contains a confusion matrix on the test data. 
+After training the cnnlstm model the results on cross-validation and the model's weights are saved in a new folder named Lresults. it also contains a confusion matrix on the test data. 
+
+**Step 6** If you want to train the proposed models without cross-validation you can just run the train.py file to train on the cnn model. the commands are the same as steps 4 and 5.
 
 
 ## About DEAP Dataset. 
