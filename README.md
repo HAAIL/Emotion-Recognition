@@ -245,7 +245,7 @@ The above transformation is done across the 32 channels for each trail in the wh
 
 - TODO
 
-### ***Results ***
+### **Results**
 
 ## Model Training Results
 - **Split**: 80-20 train-test
@@ -292,7 +292,7 @@ The above transformation is done across the 32 channels for each trail in the wh
 
 **2. For the emotion - Valence**
 
-| Fold | Training Accuracy | Validation Accuracy | Final F1 Accuracy (Validation) |
+| Fold | Training Accuracy | Validation Accuracy | F-1 Score (Validation) |
 |------|-------------------|---------------------|--------------------------------|
 | 0    | 95.66%            | 86.99%              | 0.869876                       |
 | 1    | 94.90%            | 85.45%              | 0.854516                       |
@@ -302,7 +302,7 @@ The above transformation is done across the 32 channels for each trail in the wh
 
 **3. For the emotion - Dominance**
 
-| Fold | Training Accuracy | Validation Accuracy | Final F1 Accuracy (Validation) |
+| Fold | Training Accuracy | Validation Accuracy | F-1 Score (Validation) |
 |------|-------------------|---------------------|--------------------------------|
 | 0    | 94.47%            | 85.49%              | 0.854965                       |
 | 1    | 95.43%            | 86.69%              | 0.866824                       |
@@ -312,7 +312,7 @@ The above transformation is done across the 32 channels for each trail in the wh
 
 **4. For the emotion - Liking.**
 
-| Fold | Training Accuracy | Validation Accuracy | Final F1 Accuracy (Validation) |
+| Fold | Training Accuracy | Validation Accuracy | F-1 Score (Validation) |
 |------|-------------------|---------------------|--------------------------------|
 | 0    | 93.51%            | 84.57%              | 0.845662                       |
 | 1    | 95.59%            | 86.75%              | 0.867604                       |
