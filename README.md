@@ -3,7 +3,7 @@
 Supervised by **Professor**: [Mohammad Ghassemi](https://ghassemi.xyz/)
 
 # Table of Contents
-- [Model Description](#EDA-for-the-Data)
+- [EDA](#EDA-for-the-Data)
 - [Installation](#installation)
 - [Usage](#usage)
 - [CNNLSTM Model](#cnnlstm-model)
@@ -11,7 +11,7 @@ Supervised by **Professor**: [Mohammad Ghassemi](https://ghassemi.xyz/)
 
 
 
-## Instructions To use the code - 
+## Instructions To use the code
 
 1. The .ipynb notebooks are for pedagogocal reasons on how each part of the code works.
 2. the .py files are for effortlessly reproducing the results.
