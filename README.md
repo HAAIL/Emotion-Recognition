@@ -212,9 +212,6 @@ In pre-processing notebook, there are many different plots across different time
 
 ## Pre-processing - 
 
-Here, I'm using two pre-processing techniques. 
-
-### **Method 1**
 We use a function, named `FFT_Processing`, which is designed to process EEG data using Fast Fourier Transform (FFT) and create a dataset for machine learning analysis.
 
 Steps for the process - 
