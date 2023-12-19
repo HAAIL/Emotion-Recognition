@@ -2,6 +2,14 @@
 
 Supervised by **Professor**: [Mohammad Ghassemi](https://ghassemi.xyz/)
 
+# Table of Contents
+- [Model Description](#EDA-for-the-Data)
+- [Installation](#installation)
+- [Usage](#usage)
+- [CNNLSTM Model](#cnnlstm-model)
+
+
+
 
 ## Instructions To use the code - 
 
