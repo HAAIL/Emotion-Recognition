@@ -3,10 +3,13 @@
 Supervised by **Professor**: [Mohammad Ghassemi](https://ghassemi.xyz/)
 
 # Table of Contents
+- [Instructions To use the code](#Instructions To use the code)
+- [About DEAP Dataset](#About DEAP Dataset)
+- [power spectral density plot](#power spectral density plot)
 - [EDA](#EDA-for-the-Data)
-- [Installation](#installation)
-- [Usage](#usage)
-- [CNNLSTM Model](#cnnlstm-model)
+- [Pre-processing](#Pre-processing)
+- [CNN Architecture and CNN+LSTM Architecture](#CNN Architecture and CNN+LSTM Architecture)
+- [Results](#Results)
 
 
 
