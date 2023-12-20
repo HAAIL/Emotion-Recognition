@@ -13,7 +13,7 @@ Supervised by **Professor**: [Mohammad Ghassemi](https://ghassemi.xyz/)
 
 ## Instructions To use the code
 
-1. The .ipynb notebooks are for pedagogocal reasons on how each part of the code works.
+1. The .ipynb notebooks are for pedagogical reasons on how each part of the code works.
 2. the .py files are for effortlessly reproducing the results.
 
 #### Now let's look at how we can reproduce the results using the Python scripts. 
